@@ -20,6 +20,8 @@ It uses [Visual Studio Code](https://code.visualstudio.com/) and the [devcontain
 
 1. Open the local repo folder in VS Code
 
+1. `docker build -t soulcode:1.00 . --no-cache`
+
 1. Open the [VS Code command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) and select/type 'Reopen in Container'
 
 1. Wait while the devcontainer is built and initialized, this may take several minutes

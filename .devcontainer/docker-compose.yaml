@@ -1,9 +1,10 @@
 version: '3'
 services:
   spark:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    image: soulcode:1.00  # Nome da imagem a ser construída
     volumes:
       - ..:/home/jovyan/code
     ports:
